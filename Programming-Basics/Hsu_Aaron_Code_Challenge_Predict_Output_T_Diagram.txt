@@ -1,0 +1,42 @@
+// Challenge 1
+arr = ["Up", "You", "Give", "To", "Going", "Never"]
+arr.length-1 = 6-1 = 5
+for loop (i = 5, will continue as long as i >= 0, i - 1 every loop)
+console will print arr[i] every loop
+console log:
+Never
+Going
+To
+Give
+You
+Up
+
+//Challenge 2
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sum = 0
+arr.length = 10
+for loop( i starts at 1, i will iterate until it is 10 or above, i increases by 2 every loop)
+i iteratios: 1, 3, 5, 7, 9
+arr[i iteration numbers] = 2, 4, 6, 8, 10
+sum = 2, 6, 12, 20, 30
+console log:
+2
+2
+4
+6
+6
+12
+8
+20
+10
+30
+
+// Challenge 3
+arr = [8, 2, 0, 6, 12, 4, 3];
+arr.length = 7
+for loop (i starts at 0, i will iterater until it is 7 or above, i increases by 1 every loop)
+if arr[i] >= 6, print 'true' to console.
+console log:
+true
+true
+true

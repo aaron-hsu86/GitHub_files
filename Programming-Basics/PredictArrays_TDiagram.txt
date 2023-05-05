@@ -1,0 +1,17 @@
+// Code Snippet 1
+console displays contactInfo array
+output:
+Paula Smith 1234 Main Street St. Louis MO 12345
+
+// Code Snippet 2
+string "hashbrowns" is pushed into frozen array
+console displays frozen array
+output:
+broccoli ice cream hashbrowns
+
+// Code Snippet 3
+string "Zorro" is pushed into movieLibrary array
+movieLibrary[1] value "E.T." is replaced with "Beetlejuice"
+console displays movieLibrary
+output:
+Bambo Zorro Toy Story

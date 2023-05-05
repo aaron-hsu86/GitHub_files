@@ -1,0 +1,108 @@
+// Code Snippet 1
+function hello displays "hello" in the console
+console log displays "Dojo"
+Console log:
+hello
+Dojo
+
+// Code Snippet 2
+function hello displays "hello" in console and returns the value of 15.
+variable result runs function hello
+Console log:
+result is 15
+
+// Code Snippet 3
+function numPlus takes the value num as its parameter
+string and value is displayed in console.
+function returns value of num + 15
+variable "result" runs function numPlus with varaible 3, function returns 3 + 15 = 18.
+console log:
+num is 3
+result is 18
+
+// Code Snippet 4
+variable num is declared to be 15
+console log of num 15
+function logAndReturn and return displays num in console and returns num
+variable result runs function logAndReturn with value 10
+console will log num 10 and return value 10 to variable result
+console log:
+15
+10
+10
+15
+
+The twist: While the function uses an established variable of "num" in the function, it does not give it a new value in the function. So when the function is run with a different value, it uses that value in the function.
+
+// Code Snippet 5
+variable num is declared to be 15 : num = 15
+console displays num (15)
+result runs function timesTwo with the value of 10
+function logs value 10, returns 10*2 = 20 -> result = 20
+console log:
+15
+10
+20
+15
+
+// Code Snippet 6
+function timesTwoAgain uses variable num in its function
+console will log num initial value
+num is doubled and returned as a result
+variable result calls function twice, once for value 3 and 5
+first function will log 'num is 3', double the value, and return 3*2 = 6
+second function will log 'num is 5', double the value, and return 5*2 = 10
+result is the sum of 6 + 10 = 16
+console log:
+num is 3
+num is 5
+result is 16
+
+// Code Snippet 7
+function sumNums will return the sum of the two numbers given to the function
+first function call of (2,3) will return value of 5 and posted to console
+second function call of (3,5) will return the value of 8 and posted to console
+console log:
+5
+8
+
+// Code Snippet 8
+function printSumNums will print the first number in the console and return the sum of the two numbers given to the function
+first function call of (2,3) will print the first number 2 to console and return the value of 5, which is also printed to console
+second function call of (3,5) will pring the first number 3 to console and return the value of 8, which is also printed to console
+console log:
+2
+5
+3
+8
+
+// Code Snippet 9
+function sumNums takes two numbers
+function variable sum adds the two numbers, which is then printed to console, and the sum is returned as the result
+variable result runs sumNums twice and adds the two results
+first function call of (2,3), sum = 2 + 3 = 5, console prints string and sum, and function returns value 5
+second function call of (3,5), sume = 3 + 5 = 8, console prints string and sum, and function returns value 8
+result adds two values together = 5 + 8 = 13
+console log:
+sum is 5
+sum is 8
+result is 13
+
+// Code Snippet 10
+function sumNums takes two numbers, add them together for variable sum, displays a string in console, and returns value of sum
+variable result uses function multiple times
+first value sumNums(2,3) -> adds numbers 2 + 3 = 5 -> console: 'sum is 5' -> returns value 5
+inner value of sumNums(2,1) calulated first -> 2 + 1 = 3 -> console: 'sum is 3' -> returns value 3
+second value sumNums(3, previous function result of 3) -> 3 + 3 = 6, console: 'sum is 6' -> returns value 6
+inner value of sumNums(2,1) -> 2 + 1 = 3 -> console: 'sum is 3' -> returns value 3
+second inner value of sumNums(2,3) -> 2 + 3 = 5 -> console: 'sum is 5' -> returns value 5
+third value sumNums(previous function result of 3, previous function result of 5) -> 3 + 5 = 8 -> console: 'sum is 8' -> returns value of 8
+result = 5 + 6 + 8 = 19
+console log:
+sum is 5
+sum is 3
+sum is 6
+sum is 3
+sum is 5
+sum is 8
+result is 19
