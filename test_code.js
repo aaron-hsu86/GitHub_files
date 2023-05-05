@@ -1,3 +1,2 @@
-// Hello World! Practicing code.
+// Hello World! Practicing GitHub.
 // Testing
-console.log("Hello")
